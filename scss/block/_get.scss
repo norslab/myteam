@@ -1,0 +1,52 @@
+.get__container {
+  background: #f67e7e;
+}
+.get__block {
+  padding: 76px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+.get__link {
+  border: 2px solid #012f34;
+  color: #012f34;
+}
+
+@media only screen and (max-width: 890px) {
+  .get__block {
+    padding: 76px 98px;
+  }
+  .get__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .get__block {
+    padding: 83px 24px;
+    max-width: 327px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .get__title {
+    max-width: 327px;
+    margin-bottom: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .get__link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
